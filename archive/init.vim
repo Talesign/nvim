@@ -1,3 +1,4 @@
+" old testing ground with .vim
 " this is a comment
 " set bg=light
 

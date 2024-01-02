@@ -3,6 +3,12 @@ vim.opt.timeout = false
 vim.opt.relativenumber = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.autoindent = true
+vim.opt.showcmd = true
+vim.opt.laststatus = 1
+vim.opt.autowrite = true
+vim.opt.autoread = true
+vim.opt.fillchars = {eob = " "}
+-- vim.opt.cursorline = true
 
 -- Tabs
 tab = 2

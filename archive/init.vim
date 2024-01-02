@@ -4,7 +4,6 @@
 
 " Highlights every single instance of a something searched with /?
 set hlsearch
-
 " highlights while searching
 set incsearch
 

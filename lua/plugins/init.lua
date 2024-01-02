@@ -1,3 +1,5 @@
 require('plugins.manager')
 require('plugins.config.telescope')
 require('plugins.config.nvimtree')
+require('plugins.config.catppuccin')
+require('plugins.config.lualine')

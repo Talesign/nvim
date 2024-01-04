@@ -4,15 +4,15 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- Windows navigation 
--- vim.api.nvim_set_keymap("n", "<C-h>", "<C-w>h", {} )
--- vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", {} )
--- vim.api.nvim_set_keymap("n", "<C-j>", "<C-w>j", {} )
--- vim.api.nvim_set_keymap("n", "<C-k>", "<C-w>k", {} )
-vim.api.nvim_set_keymap("n", "<Leader>h", "<cmd>:vnew<cr>", {}) 
-vim.api.nvim_set_keymap("n", "<Leader>l", "<cmd>:belowright vnew<cr>", {}) 
-vim.api.nvim_set_keymap("n", "<Leader>j", "<cmd>:belowright new<cr>", {}) 
-vim.api.nvim_set_keymap("n", "<Leader>k", "<cmd>:new<cr>", {}) 
+-- Windows navigation
+vim.api.nvim_set_keymap("n", "<C-h>", "<C-w>h", {})
+vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", {})
+vim.api.nvim_set_keymap("n", "<C-j>", "<C-w>j", {})
+vim.api.nvim_set_keymap("n", "<C-k>", "<C-w>k", {})
+vim.api.nvim_set_keymap("n", "<Leader>h", "<cmd>:vnew<cr>", {})
+vim.api.nvim_set_keymap("n", "<Leader>l", "<cmd>:belowright vnew<cr>", {})
+vim.api.nvim_set_keymap("n", "<Leader>j", "<cmd>:belowright new<cr>", {})
+vim.api.nvim_set_keymap("n", "<Leader>k", "<cmd>:new<cr>", {})
 
 -- Tabs navigation
 vim.api.nvim_set_keymap("n", "<F2>", "<ESC>:tabnew<CR>", {})
@@ -32,7 +32,7 @@ vim.api.nvim_set_keymap("n", ")", ")zzzv", {})
 -- netrw
 vim.api.nvim_set_keymap('n', '<leader>pv', "<cmd>:Vex | vertical resize 30<cr>", {})
 
--- Clipboard stuff 
+-- Clipboard stuff
 -- vim.api.nvim_set_keymap("n", "<leader>y", "\"+y")
 -- vim.api.nvim_set_keymap("v", "<leader>y", "\"+y")
 -- vim.api.nvim_set_keymap("n", "<leader>y", "\"+Y")

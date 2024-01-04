@@ -6,7 +6,7 @@ vim.opt.showcmd = true
 vim.opt.laststatus = 1
 vim.opt.autowrite = true
 vim.opt.autoread = true
-vim.opt.fillchars = {eob = " "}
+vim.opt.fillchars = { eob = " " }
 vim.opt.cursorline = true
 vim.g.netrw_banner = false
 vim.g.netrw_sort_options = ""

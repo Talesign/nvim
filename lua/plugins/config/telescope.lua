@@ -9,7 +9,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
         -- Default configuration for telescope goes here:
         -- config_key = value,
         -- ..
-	file_ignore_patterns = { 'node%_modules/.*', '.git' }
+	file_ignore_patterns = { 'node%_modules/.*', '.git', '.next', 'node_modules' }
       },
       pickers = {
         -- Default configuration for builtin pickers goes here:

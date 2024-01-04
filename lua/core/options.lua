@@ -1,6 +1,5 @@
 -- General commands
 vim.opt.timeout = false
-vim.opt.relativenumber = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.autoindent = true
 vim.opt.showcmd = true
@@ -8,7 +7,9 @@ vim.opt.laststatus = 1
 vim.opt.autowrite = true
 vim.opt.autoread = true
 vim.opt.fillchars = {eob = " "}
--- vim.opt.cursorline = true
+vim.opt.cursorline = true
+vim.g.netrw_banner = false
+vim.g.netrw_sort_options = ""
 
 -- Tabs
 tab = 2
@@ -21,3 +22,7 @@ vim.opt.autoindent = true
 -- Text highlight
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
+
+-- Numbers
+vim.opt.relativenumber = true
+vim.opt.number = true

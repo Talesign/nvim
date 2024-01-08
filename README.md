@@ -17,6 +17,7 @@ I have some basic keymaps. Most notably <Leader>h, <Leader>j, <Leader>k, <Leader
 
 ## file structure
 ~/.config/nvim
+```
 ├── lua
 │   ├── core
 │   │   ├── init.lua
@@ -27,6 +28,7 @@ I have some basic keymaps. Most notably <Leader>h, <Leader>j, <Leader>k, <Leader
 │       ├── init.lua
 │       └── config/[plugin-name].lua
 └── init.lua
+```
 
 ## Planning to
 - [ ] Add plugin: Treesitter

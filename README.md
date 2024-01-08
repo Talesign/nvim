@@ -16,8 +16,8 @@ My personal config for nvim. Simple yet effective. Low memory consumption even o
 I have some basic keymaps. Most notably <Leader>h, <Leader>j, <Leader>k, <Leader>l for creating buffers around the active buffer, and <C-j>... to move around buffers. Then I use F2 to create a new tab, F3/F4 to switch before after and F5 to close.
 
 ## file structure
-~/.config/nvim
 ```
+~/.config/nvim
 ├── lua
 │   ├── core
 │   │   ├── init.lua

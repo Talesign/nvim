@@ -14,7 +14,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-
   {
     'nvim-tree/nvim-tree.lua',
     version = "*",

@@ -7,9 +7,10 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 require('telescope').setup {
   defaults = {
-    layout_strategy = 'vertical',
+    layout_strategy = 'horizontal',
     layout_config = { height = 999, width = 999 },
-    file_ignore_patterns = { 'node%_modules/.*', '.git', '.next', 'node_modules' }
+    file_ignore_patterns = { 'node%_modules/.*', 'node_modules', '.git', '.sst', '.next' }
+    -- file_ignore_patterns = { 'node%_modules/.*', '.git', '.next', 'node_modules' }
   },
 
   pickers = {

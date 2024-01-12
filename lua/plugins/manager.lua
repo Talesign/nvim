@@ -38,6 +38,7 @@ local plugins = {
     name = 'rose-pine',
     priority = 1000
   },
+  -- LSP CONFIG
   {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x'
@@ -53,7 +54,10 @@ local plugins = {
   { 'hrsh7th/cmp-nvim-lua' },
   { 'L3MON4D3/LuaSnip' },
   { 'rafamadriz/friendly-snippets' },
-
+  {
+    "junegunn/fzf",
+    build = "./install --all"
+  },
   -- Plugins to test
   --
   -- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },

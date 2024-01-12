@@ -20,3 +20,8 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 ]])
+
+vim.cmd([[let g:fzf_commands_override = {
+\ 'Files': 'find . -type f -not -path ''./.git/*'' -not -path ''./node_modules/*'''
+\ }
+]])

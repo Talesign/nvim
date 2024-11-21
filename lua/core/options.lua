@@ -8,8 +8,11 @@ vim.opt.autowrite = true
 vim.opt.autoread = true
 vim.opt.fillchars = { eob = " " }
 vim.opt.cursorline = true
+
+-- Netrw
 vim.g.netrw_banner = false
 vim.g.netrw_sort_options = ""
+-- vim.g.netrw_list_hide = '^\..*'
 
 -- Tabs
 tab = 2

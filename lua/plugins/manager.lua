@@ -55,7 +55,9 @@ local plugins = {
   { 'L3MON4D3/LuaSnip' },
   { 'rafamadriz/friendly-snippets' },
   { "junegunn/fzf",                     build = "./install --all" },
-  { "junegunn/fzf.vim" }
+  { "junegunn/fzf.vim" },
+  -- { "preservim/nerdtree" },
+  { 'wuelnerdotexe/vim-astro' },
   -- Plugins to test
   --
   -- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },

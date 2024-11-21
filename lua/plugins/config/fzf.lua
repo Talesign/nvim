@@ -1,4 +1,4 @@
-vim.api.nvim_set_keymap("n", "<Leader>ff", "<cmd>:FZF<cr>", {})
+vim.api.nvim_set_keymap("n", "<Leader>ff", "<cmd>:Files<cr>", {})
 
 vim.cmd([[
   let g:fzf_layout = { 'window': { 'width': 1, 'height': 1, 'relative': v:true, 'yoffset': 1.0 } }
@@ -21,7 +21,9 @@ let g:fzf_colors =
   \ 'header':  ['fg', 'Comment'] }
 ]])
 
-vim.cmd([[let g:fzf_commands_override = {
-\ 'Files': 'find . -type f -not -path ''./.git/*'' -not -path ''./node_modules/*'''
-\ }
-]])
+-- -- -- -- -- -- -- -- -- vim.g.fzf_commands_override = { Files = "find . -type f -not -path './.git/*' -not -path 'lua/'" }
+-- vim.cmd([[let g:fzf_commands_override = { \ 'Files': 'rg --files --hidden --glob "!.git/*" --glob "!lua/*"' \ }]])
+
+vim.g.fzf_commands_override = {
+  Files = "rg --files --hidden --glob '!.git/*' --glob '!lua/*'"
+}
